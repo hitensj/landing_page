@@ -3,12 +3,14 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const rateLimit = require('express-rate-limit');
 const axios = require('axios');
+const cors = require('cors'); 
 
 const app = express();
 const PORT = process.env.PORT || 4000;
 const JWT_SECRET = process.env.JWT_SECRET || 'my_secret_key';
 
 // ─── Middleware for JSON ──────────────────────────────
+app.use(cors());
 app.use(express.json());
 
 // ─── JWT Authentication ──────────────────────────────
