@@ -4,7 +4,7 @@ This project is a complete full-stack web application featuring a modern fronten
 🚀 Live Demo
 The frontend of this application is deployed and live on Vercel.
 
-Visit the Live Site
+Visit the Live Site here https://landing-page-ten-iota-89.vercel.app/
 
 ✨ Features
 Fast Frontend: Built with Vite and React for a lightning-fast development experience and optimized performance.
